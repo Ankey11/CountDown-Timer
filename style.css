@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif
+    text-align: center;
+    height : 100vh; display : flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://wallpapercave.com/wp/wp8226555.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+    h1{
+    font-size: 120px;
+    color: rgb (65, 65, 61);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .container {
+    font-family: Arial,sans-serif;
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    background-color: #648ad5d5;
+    padding: 200px;
+    border-radius: 100em;
+    box-shadow: 0 0 300px rgba (7, 0, 0, 0.807);
+    }
+    .container:hover{
+    cursor: pointer;
+    background-color: #303b52ad;
+    }
+    #countdown {
+    font-size: 10em;
+    }
+    
